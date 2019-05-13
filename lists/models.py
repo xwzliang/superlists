@@ -1,9 +1,7 @@
 from django.db import models
 
 class List(models.Model):
-
-    def save(self):
-        pass
+    pass
 
 class Item(models.Model):
     text = models.TextField(default='')
